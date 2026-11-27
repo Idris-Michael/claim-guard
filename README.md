@@ -60,7 +60,7 @@ uv run claim-guard draft.txt --facts verified.md --strict
 ```python
 from claim_guard import VerifiedSource, guard
 
-facts = VerifiedSource(open("verified.md").read())   # parse once, reuse per draft
+facts = VerifiedSource(open("verified.md").read())  # parse once, reuse per draft
 result = guard(model_output, facts, mode="strict")
 send(result.text) if not result.removed else ask_a_person(result)
 ```
