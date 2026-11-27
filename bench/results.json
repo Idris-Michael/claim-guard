@@ -1,0 +1,2268 @@
+{
+  "ids": "0-199",
+  "pitches": 200,
+  "model": "claude-haiku-5-5",
+  "planted_scored": 1156,
+  "planted_reworded_not_scored": 42,
+  "unplanted_claims_model_added": 17,
+  "unplanted_examples": [
+    "added £18,000 ",
+    "generated £50k",
+    "delivered £1.8k",
+    "delivered £1.8k",
+    "delivered £18,000 ",
+    "delivered £18k",
+    "added £18,000 ",
+    "delivered £50k",
+    "added £1.8k",
+    "added £1.8k",
+    "delivered £50k",
+    "quadrupled",
+    "drove £18k",
+    "added £18k",
+    "generated £18,000 "
+  ],
+  "median_ms_per_pitch": 0.235,
+  "results": {
+    "baseline": {
+      "verified": {
+        "right": 271,
+        "of": 312
+      },
+      "near_miss": {
+        "right": 142,
+        "of": 200
+      },
+      "invented": {
+        "right": 118,
+        "of": 199
+      },
+      "metric_swap": {
+        "right": 0,
+        "of": 86
+      },
+      "safe": {
+        "right": 359,
+        "of": 359
+      }
+    },
+    "value": {
+      "verified": {
+        "right": 312,
+        "of": 312
+      },
+      "near_miss": {
+        "right": 200,
+        "of": 200
+      },
+      "invented": {
+        "right": 199,
+        "of": 199
+      },
+      "metric_swap": {
+        "right": 0,
+        "of": 86
+      },
+      "safe": {
+        "right": 359,
+        "of": 359
+      }
+    },
+    "strict": {
+      "verified": {
+        "right": 312,
+        "of": 312
+      },
+      "near_miss": {
+        "right": 200,
+        "of": 200
+      },
+      "invented": {
+        "right": 199,
+        "of": 199
+      },
+      "metric_swap": {
+        "right": 76,
+        "of": 86
+      },
+      "safe": {
+        "right": 359,
+        "of": 359
+      }
+    }
+  },
+  "errors": [
+    {
+      "pitch": 0,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 1,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 2,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 2,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 3,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 3,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 5,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 5,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 5,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 5,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 6,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 6,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 6,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 10,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 11,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 11,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 12,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 12,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 12,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 13,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 13,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 14,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 15,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 15,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 17,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 17,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 17,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 17,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 18,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 18,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 18,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 19,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 19,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 20,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 20,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 21,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 23,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 23,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 23,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 23,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 24,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 24,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 25,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 25,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 26,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 27,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 27,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 27,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 28,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 28,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 29,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 31,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 31,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 31,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 33,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 33,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 33,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 34,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 35,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 35,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 35,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 36,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 36,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 37,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 37,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 37,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 37,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 38,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 38,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 40,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 41,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 41,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 42,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 42,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 42,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 43,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 43,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 43,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 45,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 45,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 45,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 46,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 47,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 47,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 47,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 48,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 48,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 48,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 48,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 48,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 49,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 50,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 50,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 50,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 51,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 51,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 51,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 52,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 52,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 52,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 53,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 53,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 54,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 54,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 56,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 56,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 57,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 58,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 58,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 59,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 61,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 61,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 63,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 64,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 64,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 64,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 65,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 65,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 65,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 65,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 66,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 66,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 66,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 66,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 67,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 71,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 72,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 72,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 73,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 75,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 75,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 77,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 78,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 79,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 79,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 79,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 80,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 80,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 80,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 80,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 81,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 82,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 82,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 82,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 82,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 83,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 83,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 85,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 85,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 85,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 85,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 85,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 86,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 86,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 87,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 87,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 87,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 87,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 88,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 89,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 89,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 90,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 90,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 90,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 90,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 91,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 92,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 92,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 92,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 94,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 94,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 95,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 96,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 96,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 96,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 96,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 98,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 98,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 99,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 99,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 99,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 99,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 103,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 103,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 104,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 104,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 104,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 106,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 106,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 107,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 107,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 107,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 108,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 108,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 109,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 109,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 110,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 111,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 111,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 112,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 114,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 115,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 115,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 116,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 116,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 116,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 117,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 117,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 117,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 117,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 120,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 120,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 120,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 121,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 122,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 122,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 123,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 123,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 123,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 125,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 126,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 126,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 127,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 128,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 128,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 128,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 128,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 129,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 129,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 129,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 130,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 130,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 130,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 130,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 131,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 131,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 132,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 133,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 133,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 134,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 134,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 135,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 136,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 136,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 136,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 137,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 137,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 137,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 138,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 138,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 138,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 138,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 139,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 140,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 140,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 141,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 143,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 143,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 143,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 144,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 144,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 145,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 145,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 145,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 146,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 146,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 147,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 147,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 147,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 147,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 148,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "3× more demos"
+    },
+    {
+      "pitch": 148,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 150,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 150,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 152,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 153,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "a 4.2x ROAS on Shopping"
+    },
+    {
+      "pitch": 154,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 154,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 154,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 157,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 159,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 160,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 161,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 161,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 162,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 162,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 162,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 163,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 163,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 163,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 163,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 164,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 164,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 164,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 164,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 165,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 165,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 165,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 166,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 166,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 166,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 168,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 168,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 168,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 170,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 170,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 171,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 171,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 171,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 172,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 173,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 174,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 174,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 174,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 174,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 175,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 175,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 176,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 177,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 178,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 178,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 179,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 179,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 179,
+      "guard": "strict",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 180,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 181,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 181,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 181,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "40% more sales"
+    },
+    {
+      "pitch": 182,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 182,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 183,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 183,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 184,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    },
+    {
+      "pitch": 185,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 186,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 186,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 187,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "1,500 new leads"
+    },
+    {
+      "pitch": 187,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 187,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 188,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 189,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "ROAS of 1.8"
+    },
+    {
+      "pitch": 189,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "saved £120,000"
+    },
+    {
+      "pitch": 191,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 192,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "saved £65,000"
+    },
+    {
+      "pitch": 192,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 192,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 192,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 192,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 193,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 193,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 193,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "a 3x increase in traffic"
+    },
+    {
+      "pitch": 193,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "bookings quadrupled"
+    },
+    {
+      "pitch": 194,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 194,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "140% more revenue"
+    },
+    {
+      "pitch": 195,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "conversion rate up 7%"
+    },
+    {
+      "pitch": 195,
+      "guard": "baseline",
+      "category": "verified",
+      "phrase": "£18,000 in extra revenue"
+    },
+    {
+      "pitch": 196,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 196,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "traffic doubled"
+    },
+    {
+      "pitch": 197,
+      "guard": "baseline",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 197,
+      "guard": "value",
+      "category": "metric_swap",
+      "phrase": "27% lower cost per lead"
+    },
+    {
+      "pitch": 198,
+      "guard": "baseline",
+      "category": "invented",
+      "phrase": "212 more orders"
+    },
+    {
+      "pitch": 199,
+      "guard": "baseline",
+      "category": "near_miss",
+      "phrase": "32 new leads"
+    }
+  ]
+}

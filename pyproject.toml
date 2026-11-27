@@ -1,0 +1,35 @@
+[project]
+name = "claim-guard"
+version = "0.1.0"
+description = "Stops AI-written sales copy from citing results nobody verified."
+readme = "README.md"
+authors = [{ name = "Idris-Michael Bakare" }]
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+claim-guard = "claim_guard.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "SIM", "RUF"]
+ignore = ["S101", "S311", "RUF001"]  # pytest asserts; seeded bench random; × and – are matched on purpose
+
+[tool.mypy]
+strict = true
+files = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=claim_guard --cov-report=term-missing --cov-fail-under=90"
+
+[dependency-groups]
+dev = ["mypy>=1.13", "pytest>=8.3", "pytest-cov>=6.0", "ruff>=0.8"]

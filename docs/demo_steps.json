@@ -1,0 +1,17 @@
+[
+ {
+  "cmd": "cat docs/example_draft.txt",
+  "out": "Hi Sam, we rebuilt tracking for a dental group and their cost per lead fell 40 per cent.\nFor an outdoor retailer we hit a 4.2x ROAS on Shopping. Clients typically see a 340% lift,\nand one law firm got 40% more enquiries. Audits cost £150 to £400.",
+  "pause": 2600
+ },
+ {
+  "cmd": "claim-guard docs/example_draft.txt --facts bench/facts.md",
+  "out": "Hi Sam, we rebuilt tracking for a dental group and their cost per lead fell 40 per cent.\nFor an outdoor retailer we hit a 4.2x ROAS on Shopping. Clients typically see a [PROOF POINT: verified metric required] lift,\nand one law firm got 40% more enquiries. Audits cost £150 to £400.\n\nkept    '40 per cent'                    value matches a verified fact\nkept    '4.2x ROAS'                      value matches a verified fact\nREMOVED '340%'                           no verified fact states this value\nkept    '40%'                            value matches a verified fact",
+  "pause": 3200
+ },
+ {
+  "cmd": "claim-guard docs/example_draft.txt --facts bench/facts.md --strict",
+  "out": "Hi Sam, we rebuilt tracking for a dental group and their cost per lead fell 40 per cent.\nFor an outdoor retailer we hit a 4.2x ROAS on Shopping. Clients typically see a [PROOF POINT: verified metric required] lift,\nand one law firm got [PROOF POINT: verified metric required] more enquiries. Audits cost £150 to £400.\n\nkept    '40 per cent'                    value and metric match a verified fact\nkept    '4.2x ROAS'                      value and metric match a verified fact\nREMOVED '340%'                           no verified fact states this value\nREMOVED '40%'                            value is verified, but for a different metric",
+  "pause": 4500
+ }
+]
